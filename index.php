@@ -2,7 +2,7 @@
 $nombre_fichero = "include/conexion.php";
 
 if (file_exists($nombre_fichero)) {
-    echo "<script> window.location.replace('administrador.php'); </script>";
+    echo "<script> window.location.replace('administrador'); </script>";
 } else {
 
     if (isset($_POST['host'])) {

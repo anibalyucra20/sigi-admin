@@ -17,7 +17,7 @@
                     </li>
                     <li><a><i class="fa fa-calendar"></i> Instituciones <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li class="sub_menu"><a href="instituciones.php">Instituciones</a></li>
+                            <li class="sub_menu"><a href="instituciones">Instituciones</a></li>
                         </ul>
                     </li>
                     <li><a><i class="fa fa-check-square-o"></i> Usuarios <span class="fa fa-chevron-down"></span></a>

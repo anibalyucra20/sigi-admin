@@ -46,23 +46,27 @@
                     <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
                         <span class="count_top"><i class="fa fa-child"></i> Estudiantes</span>
                         <div class="count">375</div>
-                        <span class="count_bottom"><a href="estudiante.php"><i class="green">Ver</i></a></span>
+                        <span class="count_bottom"><a href="estudiante"><i class="green">Ver</i></a></span>
                     </div>
                     <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
                         <span class="count_top"><i class="fa fa-check-square-o"></i> Matrículas</span>
                         <div class="count">344</div>
-                        <span class="count_bottom"><a href="matriculas.php"><i class="green">Ver</i></a></span>
+                        <span class="count_bottom"><a href="matriculas"><i class="green">Ver</i></a></span>
                     </div>
                     <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
                         <span class="count_top"><i class="fa fa-book"></i>Unidades Didácticas Programadas</span>
                         <div class="count">96</div>
-                        <span class="count_bottom"><a href="programacion.php"><i class="green">Ver</i></a></span>
+                        <span class="count_bottom"><a href="programacion"><i class="green">Ver</i></a></span>
                     </div>
                     <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
                         <span class="count_top"><i class="fa fa-pencil-square-o"></i> Evaluación</span>
                         <div class="count">96</div>
-                        <span class="count_bottom"><a href="calificaciones_unidades_didacticas.php"><i class="green">Ver</i></a></span>
+                        <span class="count_bottom"><a href="calificaciones_unidades_didacticas"><i class="green">Ver</i></a></span>
                     </div>
+                    <?php 
+                    echo $_GET['dato1'];
+                    echo $_GET['dato2'];
+                    ?>
                 </div>
 
 
