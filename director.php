@@ -32,7 +32,7 @@
     <div class="container body">
         <div class="main_container">
             <?php
-            include("include/menu_admin.php"); ?>
+            include("include/menu_director.php"); ?>
             <!-- page content -->
             <div class="right_col" role="main">
                 <!-- top tiles -->

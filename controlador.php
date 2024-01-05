@@ -14,16 +14,6 @@ switch ($id_cargo) {
     case 2:
         header("location: secretaria");
         break;
-    case 3:
-        header("location: unidad_academica");
-        break;
-    case 4:
-        header("location: coordinador");
-        break;
-    case 5:
-        header("location: docente");
-        break;
-
     default:
         header("location: login/");
         break;
